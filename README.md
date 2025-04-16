@@ -197,59 +197,59 @@ echo "✅ TravelMemory frontend is deployed at: http://example.com"
 
 ### 1. Launch Templates
 
-![Launch Template 1](https://i.imgur.com/El6EgiD.png)
+![travel-memory-nginx](https://github.com/user-attachments/assets/1c524725-f34b-471e-9ec8-e5bae74ebf32)
+![Travel-memory ubuntu](https://github.com/user-attachments/assets/26e41e69-c930-4504-8bc3-5df2f3107e58)
+![Travel-memory](https://github.com/user-attachments/assets/ad15ac35-81c7-4ab3-adf3-8a02a3ad3b41)
 
-![Launch Template 2](https://i.imgur.com/NsXmqKL.png)
 
 ### 2. Target Groups
 
-![Target Group 1](https://i.imgur.com/h3zZU52.png)
+![TG1](https://github.com/user-attachments/assets/5e7b2c59-81b4-41a6-9a64-bd795a8af1f4)
+![TG2](https://github.com/user-attachments/assets/c02e6b6e-463a-4e7b-b7ec-db417ce139aa)
 
-![Target Group 2](https://i.imgur.com/wRVt5Eo.png)
-
-![Target Group 3](https://i.imgur.com/jjRJGzs.png)
 
 ### 3. Application Load Balancer (ALB)
 
-![ALB 1](https://i.imgur.com/WqMwPTn.png)
+![LB-working](https://github.com/user-attachments/assets/d8fd369c-281c-4d5d-8fc2-866f1d31877f)
+![ALB4](https://github.com/user-attachments/assets/dde7e960-f93a-4cc0-925e-d6a0f0fdb2e4)
+![ALB1](https://github.com/user-attachments/assets/af4a378c-3c09-4660-9b6e-7e629afce92f)
+![ALB 3](https://github.com/user-attachments/assets/fbb2a30e-4e93-432c-bd4a-cfafb476f800)
+![ALB2](https://github.com/user-attachments/assets/afea4fec-a55a-4732-bc77-4f5a2b592913)
 
-![ALB 2](https://i.imgur.com/AZdxTlP.png)
-
-![ALB 3](https://i.imgur.com/lq0x67E.png)
-
-![ALB 4](https://i.imgur.com/GMCbmA8.png)
-
-![ALB 5](https://i.imgur.com/Mx4wWjJ.png)
 
 ### 4. Auto Scaling Groups (ASG)
 
-![ASG 1](https://i.imgur.com/y4UJOmQ.png)
+![ASG 1](https://github.com/user-attachments/assets/7df6da13-f8ec-483c-b27f-ecfeb41cff38)
+![ASG 2](https://github.com/user-attachments/assets/c64c7c0e-3f7e-41f5-97f2-128f9fd52e45)
+![ASG 3](https://github.com/user-attachments/assets/6705cefd-191e-4d1e-b806-db44b73e5341)
+![ASG 4](https://github.com/user-attachments/assets/f4236cba-9e6a-4d3b-be9a-955e8a71f5a6)
+![ASG 5](https://github.com/user-attachments/assets/0e594521-da53-4196-bf32-b2ca459e7138)
 
-![ASG 2](https://i.imgur.com/OICiApJ.png)
-
-![ASG 3](https://i.imgur.com/VBl5tif.png)
 
 ### 5. Cloudflare – Add CNAME for api.example.com
 
-![Cloudflare CNAME](https://i.imgur.com/0Zf1e9O.png)
+![CNAME record](https://github.com/user-attachments/assets/74300353-d8f8-4a12-a1a8-f5f7ee7826b9)
+
 
 ---
 
 ## 🌐 Frontend Deployment Flow
 
 ### 1. EC2 Instance
+![Frontend-launch](https://github.com/user-attachments/assets/2d5d7969-4469-45ad-bc0c-163d35780c12)
 
-![EC2 Frontend 1](https://i.imgur.com/BdZW7MO.png)
+![Frontend-script](https://github.com/user-attachments/assets/85c16e06-29f9-40fb-bd45-bdfe8d9714e1)
 
-![EC2 Frontend 2](https://i.imgur.com/Y6MAEnm.png)
 
 ### 2. Cloudflare – Add A Record
 
-![Cloudflare A Record](https://i.imgur.com/FBIBWMB.png)
+![A record](https://github.com/user-attachments/assets/b218fe41-0294-43b1-ad9d-111bbc588b65)
+
 
 ### 3. Application Running → example.com
 
-![Frontend Live](https://i.imgur.com/fGXvX0b.png)
+![APP running](https://github.com/user-attachments/assets/5a0d1795-b491-4dc1-8925-26a1a9475678)
+
 
 ---
 
